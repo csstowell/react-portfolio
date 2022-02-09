@@ -2,12 +2,12 @@
 export const products = [
     {
       id: 1,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      img: "https://i.postimg.cc/sDcjgJxz/e-com.png",
       link: "https://github.com/csstowell",
     },
     {
       id: 2,
-      img: "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+      img: "https://i.postimg.cc/jjg1sbKK/Full-Page-copy-1.png",
       link: "https://github.com/csstowell",
     },
     {

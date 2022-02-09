@@ -8,13 +8,15 @@ import emailjs from "emailjs-com";
 const Contact = () => {
 
   const formRef = useRef();
+  const [done, setDone] = useState(false)
 
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formRef.current, 'YOUR_USER_ID')
+    emailjs.sendForm('service_kynwc6q', 'template_g2hjh8u', formRef.current, 'user_g5nmzIURmXAFsW5ZwVqsd')
     .then((result) => {
         console.log(result.text);
+        setDone(true)
     }, (error) => {
         console.log(error.text);
     });
