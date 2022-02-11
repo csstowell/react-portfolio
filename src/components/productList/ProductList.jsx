@@ -8,7 +8,7 @@ const ProductList = () => {
         <div className="pl-texts">
             <h1 className="pl-title">Create & Inspire.</h1>
             <p className="pl-desc">
-                Product list description goes here
+                P R O J E C T S
             </p>
         </div>
         <div className="pl-list">
