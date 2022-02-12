@@ -4,6 +4,33 @@ import Me from "../../img/me.png";
 const Intro = () => {
   return (
     <div className="intro">
+      {/* ICONS */}
+      <div className="icons">
+        <div className="icon-logos">
+          <a href="https://www.facebook.com/csstowell/">
+            <i className="fa fa-facebook-square fa-3x"></i>
+          </a>
+          <a href="https://github.com/csstowell">
+            <i className="fa fa-github-square fa-3x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/charlottestowell/">
+            <i className="fa fa-linkedin-square fa-3x"></i>
+          </a>
+          <a href="https://www.youtube.com/channel/UCkIZQWW1eGfY6_pVpblRvbA">
+            <i className="fa fa-youtube-square fa-3x"></i>
+          </a>
+        </div>
+        {/* RESUME */}
+        <div className="profile-options">
+          <button className="btn primary-btn"> Hire Me </button>
+          <a href="charlottestowell.pdf" download="charlottestowell.pdf">
+            <button className="btn highlighted-btn">Get Resume</button>
+          </a>
+        </div>
+        {/* RESUME */}
+      </div>
+      {/* ICONS */}
+
       <div className="intro-left">
         <div className="intro-left-wrapper">
           <h2 className="intro-intro">Hello, my name is</h2>
@@ -19,9 +46,13 @@ const Intro = () => {
             </div>
           </div>
           <p className="intro-description">
-            I am a software developer with a focus on creating engaging and functional user interfaces. You can currently find me locally in San Francisco, California but love a change of pace, traveling, and new experiences.
+            I am a software developer with a focus on creating engaging and
+            functional user interfaces. You can currently find me locally in San
+            Francisco, California but love a change of pace, traveling, and new
+            experiences.
           </p>
         </div>
+
         {/* svg */}
         <svg
           width="75"
@@ -81,10 +112,11 @@ const Intro = () => {
         </svg>
         {/* svg */}
       </div>
+
       <div className="intro-right">
         <div className="intro-bg"></div>
         <img src={Me} alt="" className="intro-img" />
-      </div>   
+      </div>
     </div>
   );
 };

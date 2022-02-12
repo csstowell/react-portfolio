@@ -10,6 +10,59 @@
     justify-content: center;
 }
 
+/* --------------------------------------------------- */
+
+.icons{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    margin-left: 5%;
+}
+
+.icons .icon-logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.icon-logos i{
+    width: 60px;
+    color: #59b265;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 32px;
+}
+
+
+
+
+.profile-options .btn{
+    background-color: #ec811c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.profile-options .highlighted-btn:hover {
+    background-color:#59b265;
+    color: black;
+}
+
+/* --------------------------------------------------- */
+
 .intro-right {
     flex: 1;
     position: relative;
