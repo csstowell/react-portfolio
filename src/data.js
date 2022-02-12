@@ -3,12 +3,12 @@ export const products = [
     {
       id: 1,
       img: "https://i.postimg.cc/sDcjgJxz/e-com.png",
-      link: "https://github.com/csstowell",
+      link: "https://github.com/csstowell/react-eCommerce-app",
     },
     {
       id: 2,
       img: "https://i.postimg.cc/C5YKvhmT/ecom2.png",
-      link: "https://github.com/csstowell",
+      link: "https://github.com/csstowell/react-eCommerce-app",
     },
     {
       id: 3,
@@ -22,8 +22,8 @@ export const products = [
     },
     {
       id: 5,
-      img: "https://i.postimg.cc/N0t02YLS/Screen-Shot-2022-02-08-at-10-00-05-PM.png",
-      link: "https://github.com/csstowell",
+      img: "https://i.postimg.cc/NfKYZV7f/react-shopping-cart.png",
+      link: "https://github.com/csstowell/react-shopping-cart",
     },
     {
       id: 6,
