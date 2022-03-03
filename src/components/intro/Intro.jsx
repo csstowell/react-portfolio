@@ -20,6 +20,7 @@ const Intro = () => {
             <i className="fa fa-youtube-square fa-3x"></i>
           </a>
         </div>
+
         {/* RESUME */}
         <div className="profile-options">
           <button className="btn primary-btn"> Hire Me </button>
@@ -52,7 +53,6 @@ const Intro = () => {
             experiences.
           </p>
         </div>
-
         {/* svg */}
         <svg
           width="75"
@@ -117,6 +117,15 @@ const Intro = () => {
         <div className="intro-bg"></div>
         <img src={Me} alt="" className="intro-img" />
       </div>
+
+      {/* RESUME */}
+      {/* <div className="profile-options">
+        <button className="btn primary-btn"> Hire Me </button>
+        <a href="charlottestowell.pdf" download="charlottestowell.pdf">
+          <button className="btn highlighted-btn">Get Resume</button>
+        </a>
+      </div> */}
+      {/* RESUME */}
     </div>
   );
 };

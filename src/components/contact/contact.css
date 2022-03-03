@@ -61,7 +61,7 @@ input {
     border-bottom: 1px solid black;
     margin: 10px 0px;
     font-size: 14px;
-    padding-left: 10px;
+    /* margin-left: 3px 4px; */
 }
 
 

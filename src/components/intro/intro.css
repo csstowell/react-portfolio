@@ -17,16 +17,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid red;
     margin-left: 5%;
 }
 
 .icons .icon-logos{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    
+}
+
+.icon-logos i:last-child{
+    margin-right: 0;
+}
+
+.icons .profile-options{
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    position: relative; 
 }
 
 .icon-logos i{
@@ -51,9 +65,10 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 4px;
+    margin: 8px 10px;
     cursor: pointer;
     border-radius: 12px;
+    position: relative;
 }
 
 .profile-options .highlighted-btn:hover {
