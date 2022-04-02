@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <div className="intro">
       {/* ICONS */}
-      <div className="icons">
+      {/* <div className="icons">
         <div className="icon-logos">
           <a href="https://www.facebook.com/csstowell/">
             <i className="fa fa-facebook-square fa-3x"></i>
@@ -20,18 +20,10 @@ const Intro = () => {
             <i className="fa fa-youtube-square fa-3x"></i>
           </a>
         </div>
-
-        {/* RESUME */}
-        <div className="profile-options">
-          <button className="btn primary-btn"> Hire Me </button>
-          <a href="charlottestowell.pdf" download="charlottestowell.pdf">
-            <button className="btn highlighted-btn">Get Resume</button>
-          </a>
-        </div>
-        {/* RESUME */}
-      </div>
+      </div> */}
       {/* ICONS */}
 
+      {/* INTRO */}
       <div className="intro-left">
         <div className="intro-left-wrapper">
           <h2 className="intro-intro">Hello, my name is</h2>
@@ -52,7 +44,35 @@ const Intro = () => {
             Francisco, California but love a change of pace, traveling, and new
             experiences.
           </p>
+
+          {/* RESUME */}
+          <div className="profile-options">
+            <a href="charlottestowell.pdf" download="charlottestowell.pdf">
+              <button className="btn highlighted-btn">Get Resume</button>
+            </a>
+          </div>
+          {/* RESUME */}
+
+          {/* ICONS */}
+          <div className="icons">
+            <div className="icon-logos">
+              <a href="https://www.facebook.com/csstowell/">
+                <i className="fa fa-facebook-square fa-3x"></i>
+              </a>
+              <a href="https://github.com/csstowell">
+                <i className="fa fa-github-square fa-3x"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/charlottestowell/">
+                <i className="fa fa-linkedin-square fa-3x"></i>
+              </a>
+              <a href="https://www.youtube.com/channel/UCkIZQWW1eGfY6_pVpblRvbA">
+                <i className="fa fa-youtube-square fa-3x"></i>
+              </a>
+            </div>
+          </div>
+          {/* ICONS */}
         </div>
+
         {/* svg */}
         <svg
           width="75"
@@ -117,15 +137,6 @@ const Intro = () => {
         <div className="intro-bg"></div>
         <img src={Me} alt="" className="intro-img" />
       </div>
-
-      {/* RESUME */}
-      {/* <div className="profile-options">
-        <button className="btn primary-btn"> Hire Me </button>
-        <a href="charlottestowell.pdf" download="charlottestowell.pdf">
-          <button className="btn highlighted-btn">Get Resume</button>
-        </a>
-      </div> */}
-      {/* RESUME */}
     </div>
   );
 };

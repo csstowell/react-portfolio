@@ -13,47 +13,40 @@
 /* --------------------------------------------------- */
 
 .icons{
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 5%;
+    flex: 1;
+    margin-top: 100px;
 }
 
 .icons .icon-logos{
     position: relative;
     display: flex;
-    justify-content: center;
+    flex: 1;
     align-items: center;
+    margin-top: 50px;
 }
 
-.icon-logos i:last-child{
-    margin-right: 0;
-}
-
-.icons .profile-options{
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 8px 10px;
-    cursor: pointer;
-    border-radius: 12px;
-    position: relative; 
-}
 
 .icon-logos i{
     width: 60px;
     color: #59b265;
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 15px 32px;
+    margin-top: 15px;
+    /* padding: 15px 32px; */
 }
 
 
+.profile-options {
+    position: relative;
+    display: inline;
+    
+}
 
 
 .profile-options .btn{
@@ -68,7 +61,7 @@
     margin: 8px 10px;
     cursor: pointer;
     border-radius: 12px;
-    position: relative;
+    
 }
 
 .profile-options .highlighted-btn:hover {
@@ -146,7 +139,6 @@
 }
 
 
-
 .intro-img {
     width: 100%;
     height: 100%;
@@ -163,7 +155,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 
