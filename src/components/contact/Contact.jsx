@@ -54,6 +54,10 @@ const Contact = () => {
                   <input type="text" placeholder='Email' name='user_email' />
                   <textarea rows="5" placeholder='Message' name='message'/>
                   <button>Submit</button>
+
+                  {/* if done is true */}
+                  {done && " Thank You.."}
+
               </form>
           </div>
       </div>
