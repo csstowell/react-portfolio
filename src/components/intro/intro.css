@@ -13,33 +13,34 @@
 /* --------------------------------------------------- */
 
 .icons{
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
-    margin-top: 100px;
+    margin-top: 500px;
 }
 
 .icons .icon-logos{
     position: relative;
     display: flex;
     flex: 1;
-    align-items: center;
-    margin-top: 50px;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 100px;
 }
 
 
 .icon-logos i{
-    width: 60px;
+    width: 70px;
     color: #59b265;
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 15px;
-    /* padding: 15px 32px; */
 }
+
 
 
 .profile-options {
