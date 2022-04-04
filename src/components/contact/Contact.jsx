@@ -56,7 +56,7 @@ const Contact = () => {
                   <button>Submit</button>
 
                   {/* if done is true */}
-                  {done && " Thank You.."}
+                  {done && " Thank You..."}
 
               </form>
           </div>

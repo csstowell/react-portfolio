@@ -21,13 +21,14 @@
     margin-top: 500px;
 }
 
-.icons .icon-logos{
+.icon-logos{
     position: relative;
     display: flex;
     flex: 1;
     justify-content: center;
     /* align-items: center; */
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-right: 200px;
 }
 
 
@@ -38,14 +39,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
 }
-
 
 
 .profile-options {
     position: relative;
-    display: inline;
+    justify-content: center;
+    text-align: center;
     
 }
 
@@ -59,9 +59,10 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 8px 10px;
+    /* margin: 8px 10px; */
     cursor: pointer;
     border-radius: 12px;
+    margin-right: 35px;
     
 }
 
@@ -132,7 +133,7 @@
     align-items: center;
 }
 
-.intro-scroll {
+.i-scroll {
     width: 30px;
     height: 30px;
     position: absolute;
