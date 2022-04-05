@@ -36,6 +36,8 @@
     transform: translateY(-100%);
 }
 
+
+/* RESPONSIVE DESIGN */
 @media screen and (max-width: 480px) {
     .p {
       width: 40%;
