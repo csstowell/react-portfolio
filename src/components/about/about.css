@@ -2,7 +2,6 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    margin-right: 20px;
 }
 
 .a-left{
@@ -43,7 +42,7 @@
 .a-award-img{
     width: 300px;
     height: 250px;
-    /* border-radius: 10px; */
+    border-radius: 20px;
 }
 
 .a-title{
@@ -52,36 +51,56 @@
 
 .a-sub{
     margin: 20px 0px;
+    font-style: italic;
 }
 
 .a-desc{
     font-weight: 300;
-    margin-right: 10px;
 }
 
 .a-award{
-    margin-top: 40px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 10px;
 }
 
 .a-award-texts{
     width: 70%;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .a-award-title{
     font-weight: bold;
     color: #555;
-    margin-right: 10px;
-    /* margin-left: 5px; */
+    margin-bottom: 10px;
 }
 
-.a-award-desc{
-    font-weight: 200;
-    margin-right: 5px;
-    margin-left: 5px;
+
+
+/* RESPOSIVE DESIGN */
+@media screen and (max-width: 480px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .a-left {
+        width: 100%;
+    }
+
+    .a-card {
+        height: 30vh;
+    }
+    .a-card.bg, .a-award {
+        display: none;
+    }
+  
+    .a-right {
+        padding: 20px;
+    }
+
+
+
+
 }

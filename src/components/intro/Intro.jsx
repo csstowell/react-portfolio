@@ -28,6 +28,30 @@ const Intro = () => {
           </p>
         </div>
 
+        {/* ICON LINKS & RESUME */}
+        {/* <div className="social-info">
+          <div className="icons">
+            <a href="https://www.facebook.com/csstowell/">
+              <i className="fa fa-facebook-square fa-3x"></i>
+            </a>
+            <a href="https://github.com/csstowell">
+              <i className="fa fa-github-square fa-3x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/charlottestowell/">
+              <i className="fa fa-linkedin-square fa-3x"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCkIZQWW1eGfY6_pVpblRvbA">
+              <i className="fa fa-youtube-square fa-3x"></i>
+            </a>
+          </div>
+
+          <div className="resume">
+            <a href="charlottestowell.pdf" download="charlottestowell.pdf">
+              <button className="btn highlighted-btn">Get Resume</button>
+            </a>
+          </div>
+        </div> */}
+
         {/* SVG */}
         <svg
           width="75"
@@ -86,32 +110,6 @@ const Intro = () => {
           </g>
         </svg>
 
-
-        {/* ICONS & RESUME */}
-        <div className="icons">
-          <div className="icon-logos">
-            <a href="https://www.facebook.com/csstowell/">
-              <i className="fa fa-facebook-square fa-3x"></i>
-            </a>
-            <a href="https://github.com/csstowell">
-              <i className="fa fa-github-square fa-3x"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/charlottestowell/">
-              <i className="fa fa-linkedin-square fa-3x"></i>
-            </a>
-            <a href="https://www.youtube.com/channel/UCkIZQWW1eGfY6_pVpblRvbA">
-              <i className="fa fa-youtube-square fa-3x"></i>
-            </a>
-          </div>
-
-          {/* RESUME */}
-          <div className="profile-options">
-            <a href="charlottestowell.pdf" download="charlottestowell.pdf">
-              <button className="btn highlighted-btn">Get Resume</button>
-            </a>
-          </div>
-          {/* RESUME */}
-        </div>
       </div>
 
       {/* INTRO RIGHT */}

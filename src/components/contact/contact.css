@@ -77,7 +77,8 @@ button {
 
 
 @media screen and (max-width: 480px) {
-    .c-wrapper {
+
+    .contact-wrapper {
       flex-direction: column;
       padding: 0px 50px;
     }
